@@ -1,0 +1,157 @@
+@import "https://fonts.googleapis.com/css?family=Rajdhani:300,600";
+body {
+  background-color: #191D2C;
+  color: white;
+  font-family: 'Rajdhani';
+  margin: 100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
+a,
+a:hover,
+a:visited {
+  color: #FBE346;
+  text-decoration: none;
+  outline: none; }
+
+#ceot3k {
+  width: 1024px; }
+
+#title {
+  font-weight: 600;
+  font-size: 48px;
+  color: white; }
+  #title > span {
+    font-weight: 300;
+    font-size: 32px; }
+
+#game {
+  height: 384px;
+  background-color: #10121c;
+  position: relative;
+  border: 5px solid #10121c; }
+
+#sound-wall {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.music {
+  width: 98px;
+  height: 50px;
+  margin: 1px;
+  float: left;
+  opacity: 0.20; }
+
+#telescope {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%; }
+  #telescope > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; }
+  #telescope > #img-credit {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 5px;
+    font-size: 10px; }
+
+#settings,
+#counter {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 160%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; }
+
+#counter {
+  font-size: 32px; }
+
+#reset,
+#ce-demo {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-weight: 300;
+  font-size: 16px; }
+
+i {
+  cursor: pointer; }
+
+#inspirations {
+  margin-top: 50px;
+  font-weight: 300;
+  font-size: 14px; }
+  #inspirations > p > span {
+    font-weight: 600; }
+
+.inspire {
+  vertical-align: top;
+  border-left: 1px solid #555555;
+  padding-left: 12px;
+  padding-right: 9px;
+  width: 22.5%;
+  height: 100%;
+  display: inline-block; }
+  .inspire > img, .inspire > iframe {
+    width: 100%; }
+
+#credits {
+  font-size: 10px;
+  margin-top: 20px; }
+
+[note="0"] {
+  background-color: red; }
+
+[note="0"]:hover,
+[note="0"] + .active {
+  opacity: 1;
+  box-shadow: #000000 0 -1px 7px 1px, inset black 0 -1px 9px, red 0 2px 12px; }
+
+[note="1"] {
+  background-color: yellow; }
+
+[note="1"]:hover,
+[note="1"] + .active {
+  opacity: 1;
+  box-shadow: #000000 0 -1px 7px 1px, inset black 0 -1px 9px, yellow 0 2px 12px; }
+
+[note="2"] {
+  background-color: green; }
+
+[note="2"]:hover,
+[note="2"] + .active {
+  opacity: 1;
+  box-shadow: #000000 0 -1px 7px 1px, inset black 0 -1px 9px, green 0 2px 12px; }
+
+[note="3"] {
+  background-color: blue; }
+
+[note="3"]:hover,
+[note="3"] + .active {
+  opacity: 1;
+  box-shadow: #000000 0 -1px 7px 1px, inset black 0 -1px 9px, blue 0 2px 12px; }
+
+[note="4"] {
+  background-color: purple; }
+
+[note="4"]:hover,
+[note="4"] + .active {
+  opacity: 1;
+  box-shadow: #000000 0 -1px 7px 1px, inset black 0 -1px 9px, purple 0 2px 12px; }
+
+/*# sourceMappingURL=style.css.map */

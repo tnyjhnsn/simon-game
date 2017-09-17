@@ -1,0 +1,49 @@
+Musical notes from Close Encounters of the Third Kind
+d e c C G
+
+
+http://www.seventhstring.com/resources/notefrequencies.html
+
+d 293.7Hz
+e 329.6Hz
+c 261.6Hz (middle C)
+C 130.8Hz
+G 196.0Hz
+
+colours and frequency
+http://www.echad.se/light-color-audio-frequencies
+
+
+Synesthesia = seeing sounds as colours
+
+Web Audio API
+
+example 1:
+var context = new AudioContext(),
+oscillator = context.createOscillator();
+// Connect the oscillator to our speakers
+oscillator.connect(context.destination);
+// Start the oscillator now
+oscillator.start(context.currentTime);
+// Stop the oscillator 3 seconds from now
+oscillator.stop(context.currentTime + 3);
+
+example 2:
+//create the context for the web audio
+var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+//create, tune, start and connect each oscillator sinea, sineb and sinec
+var sinea = audioCtx.createOscillator();
+sinea.frequency.value = 440;
+sinea.type = "sine";
+sinea.start();
+sinea.connect(audioCtx.destination);
+var sineb = audioCtx.createOscillator();
+sineb.frequency.value = 523.25;
+sineb.type = "sine";
+sineb.start();
+sineb.connect(audioCtx.destination);
+var sinec = audioCtx.createOscillator();
+sinec.frequency.value = 698.46;
+sinec.type = "sine";
+sinec.start();
+sinec.connect(audioCtx.destination);
