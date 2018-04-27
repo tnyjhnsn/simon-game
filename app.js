@@ -21,12 +21,12 @@ var Location = function(row, col) {
 
 var images = {
     0: ["http://www.spacetelescope.org", "Hubble Space Telescope"],
-    1: ["https://s19.postimg.org/d5vmi6gkj/heic1501a.jpg", "NASA, ESA/Hubble and the Hubble Heritage Team"],
-    2: ["https://s19.postimg.org/6gp325v8j/heic1509a.jpg", "NASA, ESA, the Hubble Heritage Team (STScI/AURA), A. Nota (ESA/STScI), and the Westerlund 2 Science Team"],
-    3: ["https://s19.postimg.org/hhk876nhf/heic1608a.jpg", "NASA, ESA, Hubble Heritage Team"],
-    4: ["https://s19.postimg.org/mu92lbbdv/heic0515a.jpg", "NASA, ESA and Allison Loll/Jeff Hester (Arizona State University). Acknowledgement: Davide De Martin (ESA/Hubble)"],
-    5: ["https://s19.postimg.org/gulbhnqlf/heic0910h.jpg", "NASA, ESA and the Hubble SM4 ERO Team"],
-    6: ["https://s19.postimg.org/pe4pfeyxv/heic0503a.jpg", "NASA, ESA, and The Hubble Heritage Team (AURA/STScI)"]
+    1: ["https://s19.postimg.cc/d5vmi6gkj/heic1501a.jpg", "NASA, ESA/Hubble and the Hubble Heritage Team"],
+    2: ["https://s19.postimg.cc/6gp325v8j/heic1509a.jpg", "NASA, ESA, the Hubble Heritage Team (STScI/AURA), A. Nota (ESA/STScI), and the Westerlund 2 Science Team"],
+    3: ["https://s19.postimg.cc/hhk876nhf/heic1608a.jpg", "NASA, ESA, Hubble Heritage Team"],
+    4: ["https://s19.postimg.cc/mu92lbbdv/heic0515a.jpg", "NASA, ESA and Allison Loll/Jeff Hester (Arizona State University). Acknowledgement: Davide De Martin (ESA/Hubble)"],
+    5: ["https://s19.postimg.cc/gulbhnqlf/heic0910h.jpg", "NASA, ESA and the Hubble SM4 ERO Team"],
+    6: ["https://s19.postimg.cc/pe4pfeyxv/heic0503a.jpg", "NASA, ESA, and The Hubble Heritage Team (AURA/STScI)"]
 }
 
 var difficulty = 0;
